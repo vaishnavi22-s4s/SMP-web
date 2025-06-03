@@ -5,7 +5,6 @@
   font-family: "Abril Fatface", serif;
   font-weight: 400;
   font-style: normal;
-
 font-size: 75px;
 line-height: 1.2;
 letter-spacing: 0.01em;
@@ -16,10 +15,10 @@ text-align: center;
     margin-bottom: 31px;
 }
 .text-2{
-   
-font-family: 'Josefin Sans';
-font-style: normal;
-font-weight: 500;
+   font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-style: bold;
+
 font-size: 24px;
 line-height: 24px;
 display: flex;
@@ -45,15 +44,22 @@ color: #272727;
         color: #fff;
         height: 50px;
         font-size: 20px;
-        font-weight: 600;
         text-decoration: none;
         border-radius: 32px;
         border: none;
         margin-top: 30px;
         text-align: center;
         padding: 11px 43px;
-
+        font-family: "Josefin Sans", sans-serif;
+        font-weight: 600;
+        font-style: bold;
    
+   
+}
+.leanmore{
+     font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-style: bold;
 }
 .home-buttons{
     display: flex;

@@ -1,4 +1,7 @@
-
+.footer{
+        font-family: "Josefin Sans", sans-serif;
+      font-style: bold;
+}
 @media only screen and (min-width:1200px) {
     .ft-para{
         width: 350px;
@@ -6,13 +9,11 @@
     }
    
     .footer{
-    
-
     padding-bottom: 40px;
-    
     color: #666;
     line-height: 1.5;
-    font-family: "Urbanist", sans-serif;
+    font-family: "Josefin Sans", sans-serif;
+      font-style: bold;
 }
 .bblogo{
     margin-top: 50px;
