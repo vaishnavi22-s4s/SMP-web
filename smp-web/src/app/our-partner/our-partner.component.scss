@@ -1,0 +1,71 @@
+  .mbview{
+    display: none;
+  }
+  .partner-imgs{
+    width: 200px;
+    height: 100px;
+    object-fit: contain;
+    border: 1px solid white;
+    box-shadow: 0px 2px 2px 2px rgb(233, 232, 232);
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+  
+   
+  }
+  .partner-imgs:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+  }
+
+
+.our-partner-heading {
+      text-align: center;
+    font-family: "Josefin Sans";
+    font-style: bold;
+    font-weight: 700;
+    font-size: 64px;
+    color: #8E55ED;
+    margin-top: 30px;
+        margin-bottom: 0px;
+
+  }
+  .our-partner{
+    background-color: #fcf9ff;
+    margin-top: 60px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    position: relative;
+  }
+.our-partner-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columns */
+  gap: 20px;
+  justify-items: center;
+  padding: 0 20px;
+}
+
+.partner-item {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.sub-para{
+    text-align: center;
+      font-size: 19px;
+    margin-bottom: 55px;
+}
+
+.whyusimg1{
+        position: absolute;
+    top: 80px;
+    right: 15px;
+}
+.whyusimg2{
+        position: absolute;
+    bottom: 80px;
+    left: 15px;
+}
+

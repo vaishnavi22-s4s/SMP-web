@@ -1,0 +1,82 @@
+.image-container img{
+    width: 80%;
+}
+.text-1{
+font-family: 'Abril Fatface';
+font-style: normal;
+font-weight: 400;
+font-size: 75px;
+line-height: 1.2;
+letter-spacing: 0.01em;
+text-transform: capitalize;
+color: #130032;
+display: flex;
+text-align: center;
+    margin-bottom: 31px;
+}
+.text-2{
+   
+font-family: 'Josefin Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+display: flex;
+text-align: center;
+justify-content: center;
+
+
+color: #272727;
+
+
+}
+.landing-align{
+     border-end-start-radius: 365px;
+ background-color: white;
+     position: relative;
+     margin-top: 80px;
+}
+.landing-texts{
+    margin-top: 170px;
+}
+.demo-btn a{
+            background-color: #f3820c;
+        color: #fff;
+        height: 50px;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 32px;
+        border: none;
+        margin-top: 30px;
+        text-align: center;
+        padding: 11px 43px;
+
+   
+}
+.home-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.home-buttons a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.stylelogo{
+         position: absolute;
+    bottom: 55px;
+    left: 60px;
+}
+.background-color{
+    background-color: #E9DDFF;
+}
+.header-icon{
+
+      position: absolute;
+    right: 10px;
+    top: 11px;
+    width: 9%;
+}

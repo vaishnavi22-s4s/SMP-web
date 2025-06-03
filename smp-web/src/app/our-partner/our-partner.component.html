@@ -1,0 +1,40 @@
+<div class="our-partner ddview">
+   
+  <p class="our-partner-heading">Our Partners</p>
+   <img src="whyusimg1.png" alt="hfdhdf" class="whyusimg1">
+    <img src="whyusimg2.png" alt="hdfffffg" class="whyusimg2">
+  <p class="sub-para">We proudly collaborate with trusted partners who share our vision,<br> driving innovation, growth, and impact together.</p>
+  <div class="container">
+    <div class="our-partner-container">
+      
+      <div class="partner-item" *ngFor="let image of ourPartner">
+        <img [src]="image.imageUrl" alt="Partner" class="partner-imgs" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="our-partner mbview">
+    <p class="our-partner-heading">Our Partner</p>
+    <div class="our-partner-container">
+      <div class="arrow left-arrow" (click)="prevSlide()">&#8249;</div>
+      <div class="slider">
+        <div class="slide" *ngFor="let image of visibleImages">
+          <img 
+    
+            [src]="image.imageUrl" 
+            alt="Partner" 
+            class="partner-imgs">
+        </div>
+      </div>
+      <div class="arrow right-arrow" (click)="nextSlide()">&#8250;</div>
+    </div>
+  </div>
+
+
+
+
+ 

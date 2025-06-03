@@ -1,0 +1,124 @@
+.why-us-container{
+    background-color: white;
+    border-radius: 60px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    position: relative;
+  
+}
+// .img-align{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 50px;
+//       padding: 50px 0px;
+// }
+// .img-align img{
+//     width: 37%;
+//     height: 100%;
+//     object-fit: cover;
+//     background-color:#E9DDFF ;
+//     border-radius: 60%;
+//         padding-left: 25px;
+// }   
+// .ctright1{
+
+//     top: 209px;
+//     right: 338px;
+//     background: orange;
+//     padding: 15px 28px;
+//     border-radius: 12px;
+//     position: absolute;
+
+// }
+// .ctright2{
+
+//       top: 326px;
+//     right: 300px;
+
+//     background: orange;
+//     padding: 15px 28px;
+//     border-radius: 12px;
+//     position: absolute;
+
+// }
+// .ctright3{
+// top: 455px;
+//     right: 302px;
+//     background: orange;
+//     padding: 15px 28px;
+//     border-radius: 12px;
+//     position: absolute;
+
+// }
+// .ctright4{
+
+//     top: 209px;
+//     left: 338px;
+//     background: orange;
+//     padding: 15px 28px;
+//     border-radius: 12px;
+//     position: absolute;
+
+// }
+// .ctright5{
+//      top: 326px;
+//     left: 270px;
+
+
+//     background: orange;
+//     padding: 15px 28px;
+//     border-radius: 12px;
+//     position: absolute;
+
+// }
+// .ctright6{
+
+   
+//     top: 455px;
+//     left: 302px;
+//     background: orange;
+//     padding: 15px 28px;
+//     border-radius: 12px;
+//     position: absolute;
+
+// }
+.img-container img{
+    width: 70%;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    position: relative;
+   
+}
+.why-head{
+    text-align: center;
+    font-family:"Josefin Sans";
+
+
+font-style: bold;
+font-weight: 700;
+font-size: 64px;
+color: #8E55ED;
+margin-top: 30px;
+
+}
+.why-head span{
+    color: white;
+    background-color: #8E55ED;
+        border: 1px solid #8E55ED;
+    padding: 0px 10px;
+}
+.whyusimg1{
+    position: absolute;
+        top: 77px;
+    right: 10px;
+}
+.whyusimg2{
+    position: absolute;
+      left: 10px;
+    bottom: 77px;
+}

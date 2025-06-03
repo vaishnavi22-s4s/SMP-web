@@ -1,0 +1,433 @@
+
+@media only screen and (min-width:1200px) {
+    .ft-para{
+        width: 350px;
+        font-size: 18px;
+    }
+   
+    .footer{
+    
+
+    padding-bottom: 40px;
+    
+    color: #666;
+    line-height: 1.5;
+    font-family: "Urbanist", sans-serif;
+}
+.bblogo{
+    margin-top: 50px;
+    width: 60%;
+    
+    margin-bottom: 20px;
+}
+.ft-logo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+
+
+
+
+
+}
+
+.gtinto{
+    display: flex;
+    text-decoration: none;
+   
+}
+.ft-head{
+    font-size: 28px;
+    font-weight: 500;
+    color:#883DCF; 
+    margin-top: 60px;
+ 
+}
+.nums{
+    text-decoration: none;
+    color:#666; 
+
+}
+.mail-footer{
+    text-decoration: none;
+    color:#666; 
+}
+.gtinto p{
+    font-size: 18px;
+}
+.arrow p a{
+    text-decoration: none;
+    color:#666 ;
+    font-size: 18px;
+}
+.arrow p a:hover{
+    color:#883DCF ;
+
+}
+.arrow p i:hover{
+    color:#883DCF ;
+
+}
+
+
+.ft-input {
+    display: flex;
+    align-items: center;
+}
+
+.ft-in {
+    border-radius: 8px; 
+    padding: 10px 15px;  
+    border: 1px solid #883DCF;  
+    margin: 2px; 
+}
+
+input.ft-in {
+    flex-grow: 1;  
+}
+
+button.ft-in {
+    background-color: #883DCF; 
+    color: white;  
+    cursor: pointer; 
+}
+
+button.ft-in:hover {
+    background-color: #883DCF;  /* Darker green on hover */
+}
+.social-icon {
+    
+    display: flex;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    
+  }
+  .social-logo img {
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    margin-left: 10px;
+    border-radius: 7px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .social-logo img:hover  {
+    transform: scale(1.1);
+  }
+
+
+.ft-head {
+    position: relative;
+    display: inline-block;
+   
+}
+.mail-footer{
+    text-decoration: none;
+    color:#666; 
+}
+.ft-head::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0; /* Place underline directly below the text */
+    width: 100%;
+    height: 3px; /* Adjust underline thickness */
+    background: #883DCF; /* Underline color */
+    transform: scaleX(0); /* Initial state - hidden */
+    transform-origin: left; /* Animation starts from the left */
+    transition: transform 0.3s ease-in-out; /* Smooth animation */
+}
+
+.ft-head:hover::after {
+    transform: scaleX(1); /* Full width on hover */
+}
+.copyright{
+    text-decoration: none;
+    color: #883DCF;
+  
+}
+    .text-center{
+                margin-top: 25px;
+        }
+}
+
+
+
+
+
+@media only screen and (min-width:600px) and (max-width:1200px){
+
+        .footer {
+         
+            background-color: #eee0fa;
+            padding-bottom: 40px;
+            color: #666;
+            line-height: 1.5;
+            font-family: "Urbanist", sans-serif;
+           
+        }
+
+
+        .nums{
+            text-decoration: none;
+            color:#666; 
+        
+        }
+    .mail-footer{
+        text-decoration: none;
+        color:#666;
+    }
+    .bblogo{
+        margin-top: 50px;
+        width: 170px;
+        height: 130px;
+        object-fit: contain;
+        margin-bottom: 20px;
+    }
+    
+        .ft-logo {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    
+        .gtinto {
+            display: flex;
+        }
+    
+        .ft-head {
+            font-size: 28px;
+            font-weight: 500;
+            color: #883DCF;
+            margin-top: 60px;
+            position: relative;
+            display: inline-block;
+        }
+    
+        .gtinto p {
+            font-size: 17px;
+        }
+        .arrow p a{
+            text-decoration: none;
+            color:#666 ;
+        }
+        .arrow p a:hover{
+            color:#883DCF ;
+        
+        }
+        .arrow p i:hover{
+            color:#883DCF ;
+        
+        }
+    
+        .ft-input {
+           
+            align-items: center;
+        }
+    
+        .ft-in {
+            border-radius: 8px;
+            padding: 10px 15px;
+            border: 1px solid #883DCF;
+            margin: 2px;
+        }
+    
+        input.ft-in {
+            flex-grow: 1;
+        }
+    
+        button.ft-in {
+            background-color: #883DCF;
+            color: white;
+            cursor: pointer;
+        }
+    
+        button.ft-in:hover {
+            background-color: #883DCF;
+        }
+    
+        .social-icon {
+            display: flex;
+            width: 40px;
+            height: 40px;
+            text-align: center;
+            margin-left: 10px;
+        }
+    
+        .social-logo img{
+           
+            height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            margin-right: 10px;
+            border-radius: 7px;
+        }
+    
+        .social-logo img:hover {
+            transform: scale(1.1);
+        }
+    
+        .ft-head::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background: #883DCF;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .ft-head:hover::after {
+            transform: scaleX(1);
+        }
+        .copyright{
+    text-decoration: none;
+    color: #883DCF;
+
+}
+    .text-center{
+                margin-top: 25px;
+        }
+    }
+    
+
+    @media only screen and (max-width: 600px) {
+        .footer {
+            margin-top: 30px;
+            background-color: #eee0fa;
+            padding-bottom: 40px;
+            color: #666;
+            line-height: 1.5;
+            font-family: "Urbanist", sans-serif;
+            padding-left: 40px;
+            padding-right: 30px; 
+            text-align: left; 
+            padding-top: 30px;
+
+        }
+        .nums{
+            text-decoration: none;
+            color:#666; 
+        
+        }
+       .mail-footer{
+            text-decoration: none;
+            color:#666; 
+        }
+
+        .bblogo {
+            width: 110px;
+            height: 70px;
+            margin-bottom: 30px;
+        }
+    
+        .ft-logo {
+            width: 25px;
+            height: 25px;
+            margin-right: 10px;
+        }
+    
+        .gtinto {
+            display: flex;
+        }
+    
+        .ft-head {
+            font-size: 23px;
+            font-weight: 500;
+            color: #883DCF;
+            margin-top: 10px;
+            position: relative;
+            display: inline-block;
+        }
+    
+        .gtinto p {
+            font-size: 17px;
+        }
+        .arrow p a{
+            text-decoration: none;
+            color:#666 ;
+        }
+        .arrow p a:hover{
+            color:#883DCF ;
+        
+        }
+        .arrow p i:hover{
+            color:#883DCF ;
+        
+        }
+    
+       
+    
+        .ft-in {
+            border-radius: 8px;
+        padding: 10px 9px;
+        border: 1px solid #883DCF;
+        margin: 2px;
+        font-size: 13px;
+        }
+    
+        input.ft-in {
+            flex-grow: 1;
+        }
+    
+        button.ft-in {
+            background-color: #883DCF;
+            color: white;
+            cursor: pointer;
+        }
+    
+        button.ft-in:hover {
+            background-color: #883DCF;
+        }
+    
+        .social-icon {
+            display: flex;
+            width: 28px;
+            height: 28px;
+            text-align: center;
+            margin-left: 10px;
+            object-fit: contain;
+        }
+    
+        .social-logo img {
+            height: 100%;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+            margin-right: 10px;
+            border-radius: 7px;
+        }
+    
+        .social-logo img:hover {
+            transform: scale(1.1);
+        }
+    
+        .ft-head::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 3px;
+            background: #883DCF;
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.3s ease-in-out;
+        }
+    
+        .ft-head:hover::after {
+            transform: scaleX(1);
+        }
+        .copyright{
+    text-decoration: none;
+    color: #883DCF;
+
+}
+        .text-center{
+                margin-top: 25px;
+        }
+    }
+    
