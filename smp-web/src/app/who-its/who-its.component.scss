@@ -57,3 +57,25 @@
     border: 1px solid #8E55ED;
     padding: 0px 10px;
   }
+  @media only screen and (min-width:600px) and (max-width:1000px){
+    .heading{
+        font-size: 45px;
+    }
+    .who-cont{
+        font-size: 18px;
+    }
+    .sub-head{
+        font-size: 24px;
+    }
+  }
+  @media only screen and (max-width:599px){
+    .heading{
+        font-size: 35px;
+    }
+     .who-cont{
+        font-size: 18px;
+    }
+    .sub-head{
+        font-size: 24px;
+    }
+  }

@@ -123,3 +123,43 @@ margin-top: 30px;
       left: 10px;
     bottom: 77px;
 }
+@media only screen and (min-width:600px) and (max-width:1000px){
+    .why-head{
+        font-size: 45px;
+    }
+    .img-container{
+        margin-top:30px;
+    }
+    .whyusimg1{
+        width: 10%;
+    }
+    .whyusimg2{
+        width: 10%;
+    }
+    // .container{
+    //             max-width: 602px;
+    // }
+    .img-container img{
+        width: 78%;
+    }
+}
+@media only screen and (max-width:599px){
+    .why-head{
+        font-size: 35px;
+    }
+    .img-container{
+        margin-top:30px;
+    }
+    .whyusimg1{
+       display: none;
+    }
+    .whyusimg2{
+       display: none;
+    }
+    // .container{
+    //             max-width: 602px;
+    // }
+    .img-container img{
+        width: 105%;
+    }
+}
