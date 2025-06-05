@@ -146,6 +146,7 @@ border-radius: 40px;
 }
 .right-align{
     position: relative;
+    height: 700px;
 }
 .icon{
   width: 50%;
@@ -159,6 +160,143 @@ border-radius: 40px;
     background-color: #8E55ED;
     border: 1px solid #8E55ED;
     padding: 0px 10px;
-    
+  
+}
+.mbview{
+  display:none;
+}
+@media only screen and (min-width:1200px) and (max-width: 1400px) {
+  .mbview{
+  display:none;
+}
 
+.elegant-hd{
+  font-size: 48px;
+}
+.text1{
+      top: 230px;
+    left: 68px;
+}
+.text2{
+  left: 267px;
+}
+.text3{
+  
+left: 55px;
+}
+.text4{
+  right: 90px;
+}
+
+}
+@media only screen and (min-width:1000px) and (max-width:1200px) {
+  .mbview{
+  display:none;
+}
+.elegant-hd{
+     font-size: 64px;
+}
+.elegant-img{
+  display: none;
+}
+.one{
+  position: absolute;
+}
+
+.two{
+        position: absolute;
+        top: 187px;
+        right: 163px;
+    
+}
+.three{
+  position: absolute;
+  top: 494px;
+}
+.four{
+  position: absolute;
+          top: 493px;
+        right: 169px;
+}
+.text1{
+        top: 224px;
+    left: 266px;
+    width: 20%;
+}
+.text2{
+  top: 209px;
+  left: 517px;
+}
+.text3{
+      left: 276px;
+}
+.text4{
+  top: 465px;
+    right: 196px;
+    height: 193px;
+    width: 21%;
+}
+
+}
+@media only screen and (min-width:780px) and (max-width:999px) {
+  .mbview{
+  display:none;
+}
+  .text4{
+        right: 146px;
+  }
+  .four{
+
+        right: 149px;
+}
+.elegant-img{
+  display: none;
+}
+.elegant-hd{
+    font-size: 45px;
+}
+}
+@media (max-width: 780px) {
+  .ddview{
+    display: none;
+  }
+  .mbview{
+    display: block;
+  }
+  .container {
+    padding: 20px;
+  }
+
+  .box1, .box2, .box3, .box4 {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+    text-align: center;
+    padding: 10px 20px;
+    transition: transform 0.3s ease;
+  }
+
+  .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    transform: translateY(-5px);
+  }
+
+  .logo {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+
+  .word {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .elegant-hd{
+    font-size: 35px;
+    margin-top: 0px;
+  }
 }

@@ -5,7 +5,7 @@
 .container{
     background-color: white;
     border-radius: 70px;
-    margin-top: 80px;
+ 
     position: relative;
      font-family: "Josefin Sans", sans-serif;
   
@@ -101,4 +101,68 @@ color: #8E55ED;
     position: absolute;
      bottom: 100px;
     right: 20px;
+}
+@media only screen and (min-width:991px) and (max-width: 1200px){
+    .aboutusimg{
+        margin-top: 70px;
+    }
+
+}
+@media only screen and (min-width:600px) and (max-width: 990px){
+    .aboutusimg{
+        display: none;
+    }
+    .about-box{
+        margin: 0px 0px 20px 0px;
+    }
+    .about-aling{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutus-hd{
+            font-size: 45px;
+    }
+}
+@media only screen and (max-width:599px){
+    .aboutusimg{
+        display: none;
+    }
+    .about-box{
+        margin: 0px 0px 45px 0px;
+        padding: 12px 8px;
+        gap:4px;
+    }
+    .about-aling{
+        display: flex;
+        justify-content: center;
+    }
+        .aboutus-hd{
+            font-size: 35px;
+    }
+.sub-para{
+    font-size: 21px;
+        text-align: center;
+                line-height: 32px;
+        margin-top: 15px;
+    
+}
+.sub-para2{
+    font-size: 18px;
+    text-align: center;
+            line-height: 26px;
+        margin: 14px;
+}
+.icon1{
+    display: none;
+}
+.icon2{
+    display: none;
+}
+.number{
+        font-size: 48px;
+}
+.tick{
+    margin-right: 2px;
+}
+
 }
